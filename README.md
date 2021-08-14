@@ -1,7 +1,7 @@
 
 # The Frontend Interview
 
-This repo contains a collection of topics which are frequently asked in a Frontend interview (for Entry level, Mid-senior level and Senior level). The questions/topics are categorized based on different areas.
+This repo contains a collection of topics which are frequently asked in a Frontend interview (suitable for **Entry level, Mid-senior level and Senior level**). The questions/topics are categorized based on different areas.
 
 **Some questions might be interrelated and don't follow a specific order.**
 
