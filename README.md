@@ -5,6 +5,8 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 **Some questions might be interrelated and don't follow a specific order.**
 
+> If you have got more questions, feel free to raise a PR to add them to this list. Incase of any clarifications raise an issue.
+
 ## Browser internals
 
 1.  How the html gets rendered in the browser ? What happens when we enter a url in the address bar ?
@@ -32,7 +34,7 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 9.  Type of scripts - `sync`, `async`, `defer`
 
     -   Order of script execution
-    -   `3 sync scripts` with following order and attributes, which one executes first and why ?
+    -   What's the order of execution for following 3 sync scripts appearing in order?
         -   script 1 - `30 KB`
         -   script 2 - `20KB (cached)`
         -   script 3 - `5KB`
@@ -155,7 +157,7 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 12. Can you apply z-index to a static element ?
 
-13. Difference b/w `visibility: hidden` and `display: none` . What are the internal stages affected if we toggle the values ?
+13. Difference b/w `visibility: hidden` and `display: none` . Which internal stages are affected if we change the values?
 
 14. Difference b/w `div > span` , `div span` , `div ~ span` , `div + span`
 
@@ -274,7 +276,7 @@ for (; i < 5; i++) {
 
 18. Implement a polyfill for `Array.prototype.reduce` // Refer <https://jsvault.com/>
 
-19. What's a closure and lexical scoping ?
+19. What is closure and lexical scoping
 
 20 Write a function to get the following output.
 
@@ -368,7 +370,7 @@ run();
 console.log(7);
 ```
 
-34. What's a message queue and task queue in event loop ?
+34. What is message queue and task queue in event loop ?
 
 35. What are the types of caching ?
 
@@ -415,11 +417,11 @@ console.log(7);
 
 6.  Implement a Super Mario game within a board of 64\*64 cells with mushrooms and poisons at random places. Whenever the Mario picks up the mushroom, the places of the mushrooms and poisons should change and the score should be tracked.
 
-7.  How would you design a lazy loading list component like linked/facebook feed list?
+7.  How would you design a lazy loading list component like LinkedIn/Facebook feed list?
 
-8.  Design something like Whatsapp Web ? Explain the component design architecture.
+8.  Design a webapp like Whatsapp Web. Explain the component design architecture.
 
-9.  Design a page something like Google chrome downloads which should also handle the file downloading functionality.
+9.  Design a page like Google Chrome Downloads which should also handle the file downloading functionality.
 
 ![image.png](images/chrome-downloads.png)
 
@@ -429,11 +431,11 @@ console.log(7);
 
 11. How would you design the front page of a news article website ? What parameters would you keep in consideration ? How would you optimize it ?
 
-12. How would you design a system that will Cache the **last 10 requests** made in an application and look the Cache if request is already in Cache?
+12. How would you design a system that will Cache the **last 10 requests** made in an application and lookup the Cache if request is already in Cache?
 
 13. How would you track the Framework errors in an application ?
 
-14. What the options do you consider before deploying a application in production like minification, uglify, route splitting... ?
+14. What features do you consider before deploying an application in production like minification, uglify, route splitting... ?
 
 15. Difference b/w `http` and `https` ? `http 1.1` vs `http 2` ?
 
