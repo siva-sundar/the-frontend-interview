@@ -1,0 +1,8 @@
+{
+  "name": "the-frontend-interview",
+  "version": "1.0.0",
+  "description": "A collection of topics which are frequently asked in a Frontend interview.",
+  "repository": "https://github.com/siva-sundar/the-frontend-interview.git",
+  "author": "Sivakumar <kctsiva@github.com>",
+  "license": "MIT"
+}
