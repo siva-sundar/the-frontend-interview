@@ -5,13 +5,13 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 **Some questions might be interrelated and don't follow a specific order.**
 
-### Browser internals
+## Browser internals
 
 1.  How the html gets rendered in the browser ? What happens when we enter a url in the address bar ?
 
 2.  Stages in browser rendering
 
-    -   **DOM & CSSOM **construction
+    -   **DOM & CSSOM** construction
     -   Render tree construction
     -   Layout tree construction
     -   Paint phase
@@ -25,17 +25,17 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 6.  Critical section of a page
 
-7.  DOMContentLoaded
+7.  What is `DOMContentLoaded`?
 
-8.  window.onload vs DOMContentLoaded
+8.  Difference b/w `window.onload` vs `DOMContentLoaded`
 
-9.  Type of scripts - sync, async, defer
+9.  Type of scripts - `sync`, `async`, `defer`
 
     -   Order of script execution
-    -   3 sync scripts with following order and attributes, which one executes first and why ?
-        -   script 1 - 30 KB
-        -   script 2 - 20KB (cached)
-        -   script 3 - 5KB
+    -   `3 sync scripts` with following order and attributes, which one executes first and why ?
+        -   script 1 - `30 KB`
+        -   script 2 - `20KB (cached)`
+        -   script 3 - `5KB`
 
 10. Does font affect rendering and layout phases ? If yes, how to minimize the effect ?
 
@@ -47,7 +47,7 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 * * *
 
-### HTML Questions - Part 1 - Basics
+## HTML Questions - Part 1 - Basics
 
 1.  What does `<!DOCTYPE html>` mean ? What happens if we don't specify it ?
 
@@ -97,7 +97,7 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 * * *
 
-### CSS Questions - Part 1 - Basics
+## CSS Questions - Part 1 - Basics
 
 1.  Selector specificity
 
@@ -105,17 +105,17 @@ This repo contains a collection of topics which are frequently asked in a Fronte
     -   What's the output of the following code ?
 
 ```html
-<style>
-  div :nth-child(1) {
-    color: green;
-  }
-  div span {
-    color: red;
-  }
-</style>
-<div>
-  <span>Text</span>
-</div>
+     <style>
+       div :nth-child(1) {
+         color: green;
+       }
+       div span {
+         color: red;
+       }
+     </style>
+     <div>
+       <span>Text</span>
+     </div>
 ```
 
 1.  Positioning in CSS
@@ -169,7 +169,7 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 1.  Difference b/w `let` ,`var` and `const`
 2.  What's the output of the following ?
-
+```javascript
 
         let a = 100;
         var b = 200;
@@ -181,10 +181,10 @@ This repo contains a collection of topics which are frequently asked in a Fronte
         }
 
         console.log(a, b);
+```
 
 3.  What's the output ?
-
-
+```javascript
     let a = 100;
     var b = 200;
 
@@ -198,6 +198,7 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
     run();
     console.log(a, b);
+```
 
 4.  What's the output ?
 
@@ -252,7 +253,7 @@ for (; i < 5; i++) {
 
 10. Difference b/w `==` and `===` ?
 
-11. What's the output? Be familiar with the order of type conversions. You don't have to tell the exact answer, just explaining the order would be enough 🙂
+11. What's the output? Be familiar with the order of type conversions. You don't have to tell the exact answer, just explaining the order would be enough
 
 ```javascript
 1 + [] == true;
@@ -393,14 +394,12 @@ console.log(7);
 
 ## Security
 
-1.  XSS and how to prevent it ?
-2.  CSRF and how to prevent it ?
-3.  CORS
-4.  IFRAME options
-
-    5.  How do we ensure security in web socket connections ?
-
-    6.  Setting values via `innerHTML` vs `innerText`
+1.  `XSS` and how to prevent it ?
+2.  `CSRF` and how to prevent it ?
+3.  `CORS`
+4.  `IFRAME options`
+5.  How do we ensure security in web socket connections ?
+6.  Setting values via `innerHTML` vs `innerText`
 
 ## Design round questions
 
@@ -410,9 +409,9 @@ console.log(7);
 
 ![image.png](images/file-explorer-vscode.png)
 
-4.  Implement a polyfill for a Promise.
+4.  Implement a polyfill for a `Promise`.
 
-5.  Implement an auto-complete component like google search.
+5.  Implement an `auto-complete` component like google search.
 
 6.  Implement a Super Mario game within a board of 64\*64 cells with mushrooms and poisons at random places. Whenever the Mario picks up the mushroom, the places of the mushrooms and poisons should change and the score should be tracked.
 
