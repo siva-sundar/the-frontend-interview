@@ -35,6 +35,7 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
     -   Order of script execution
     -   What's the order of execution for following 3 sync scripts appearing in order?
+        assume 1KB takes 1ms to download.
         -   script 1 - `30 KB`
         -   script 2 - `20KB (cached)`
         -   script 3 - `5KB`
