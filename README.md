@@ -391,22 +391,25 @@ console.log(7);
 
 41. What's a web worker ?
 
-## HTTP methods
+## HTTP 
 
 1.  What are the known http request methods ?
 2.  Use case for PATCH
 3.  Status code types
 4.  What is Content Type in request and response ?
 5.  Last modified time and Etag in request.
+6.  Difference b/w `http` and `https` ?
+7.  Difference b/w `http 1.1` vs `http 2` ?
 
 ## Security
 
-1.  `XSS` and how to prevent it ?
-2.  `CSRF` and how to prevent it ?
-3.  `CORS`
-4.  `IFRAME options`
+1.  Explain `XSS` and how to prevent it ?
+2.  Explain `CSRF` and how to prevent it ?
+3.  Explain `CORS` and why do we need it ?
+4.  Explain `IFRAME options`
 5.  How do we ensure security in web socket connections ?
 6.  Setting values via `innerHTML` vs `innerText`
+7.  Explain about Cookies and sessions.
 
 ## Design round questions
 
@@ -441,7 +444,5 @@ console.log(7);
 13. How would you track the Framework errors in an application ?
 
 14. What features do you consider before deploying an application in production like minification, uglify, route splitting... ?
-
-15. Difference b/w `http` and `https` ? `http 1.1` vs `http 2` ?
 
           
