@@ -100,6 +100,8 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 17. How do we invalidate a resource file (say html, css, js..) ? Explain about `cache-control` header.
 
+18. How do we avoid unnecessary layout shifts ?
+
 * * *
 
 ## CSS Questions - Part 1 - Basics
