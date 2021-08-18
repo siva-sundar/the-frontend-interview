@@ -48,6 +48,8 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 13. What is html quirks mode ?
 
+14. How does transform doesn't trigger reflow and repaint ?
+
 * * *
 
 ## HTML Questions - Part 1 - Basics
