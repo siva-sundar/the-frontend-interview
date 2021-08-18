@@ -452,5 +452,7 @@ console.log(7);
 14. What features do you consider before deploying an application in production like minification, uglify, route splitting... ?
     
 15. Implement a function which `deep clones an Object or an Array of Objects`.
+    
+16. Few more questions can be found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer).
 
           
