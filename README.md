@@ -450,5 +450,7 @@ console.log(7);
 13. How would you track the Framework errors in an application ?
 
 14. What features do you consider before deploying an application in production like minification, uglify, route splitting... ?
+    
+15. Implement a function which `deep clones an Object or an Array of Objects`.
 
           
