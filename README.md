@@ -50,6 +50,8 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 14. How does `transform` doesn't trigger reflow and repaint ?
 
+15. Mention some Web APIs that you have used. How is it different from javascript functionality?
+
 * * *
 
 ## HTML Questions - Part 1 - Basics
