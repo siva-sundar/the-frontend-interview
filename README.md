@@ -395,6 +395,8 @@ console.log(7);
 
 41. What's a web worker ?
 
+42. Difference b/w a `callback` and a `Promise`.
+
 ## HTTP 
 
 1.  What are the known http request methods ?
