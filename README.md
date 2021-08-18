@@ -98,6 +98,8 @@ This repo contains a collection of topics which are frequently asked in a Fronte
 
 16. Difference between event.stopPropagation and event.preventDefault ?
 
+17. How do we invalidate a resource file (say html, css, js..) ? Explain about `cache-control` header.
+
 * * *
 
 ## CSS Questions - Part 1 - Basics
