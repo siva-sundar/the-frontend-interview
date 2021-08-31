@@ -14,5 +14,9 @@
   },
   "devDependencies": {
     "http-server": "^13.0.1"
+  },
+  "engines": {
+    "node": "12.*",
+    "yarn": "1.22.*"
   }
 }
