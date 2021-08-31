@@ -6,7 +6,8 @@
   "author": "Sivakumar <kctsiva@github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "fiddly"
+    "build": "fiddly",
+    "deploy": "fiddly deploy"
   },
   "dependencies": {
     "fiddly": "^0.9.1"
