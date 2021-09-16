@@ -469,6 +469,8 @@ console.log(7);
     
 15. Implement a function which `deep clones an Object or an Array of Objects`.
     
-16. Few more questions can be found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-\(Written-by-a-Frontend-Engineer\)).
+16. Implement a page which shows the LinkedIn feed, how to structure the components, how do you achieve lazy loading if the list is huge ? 
+    
+17. Few more questions can be found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-\(Written-by-a-Frontend-Engineer\)).
 
           
