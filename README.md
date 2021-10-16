@@ -3,6 +3,7 @@
 
 This repo contains a collection of topics which are frequently asked in a Frontend interview (suitable for **Entry level, Mid-senior level and Senior level**). The questions/topics are categorized based on different areas asked in following companies.
 
+* Atlassian
 * Amazon
 * Postman
 * Zeta
@@ -472,5 +473,8 @@ console.log(7);
 16. Implement a page which shows the LinkedIn feed, how to structure the components, how do you achieve lazy loading if the list is huge ? 
     
 17. Few more questions can be found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-\(Written-by-a-Frontend-Engineer\)).
+
+18. How do you develop a trello board with tasks ? How do you render the cards, infinite scroll and what are the api's required and how do you design them ?
+    ![trello-board](https://user-images.githubusercontent.com/15258941/137584154-cf2a4489-f463-446b-8ab8-9685e6a92799.jpeg)
 
           
